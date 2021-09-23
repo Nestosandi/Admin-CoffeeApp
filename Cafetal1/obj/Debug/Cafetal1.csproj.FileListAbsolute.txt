@@ -1,0 +1,11 @@
+C:\Users\salas\source\repos\Cafetal1\Cafetal1\bin\Debug\Cafetal1.exe.config
+C:\Users\salas\source\repos\Cafetal1\Cafetal1\bin\Debug\Cafetal1.exe
+C:\Users\salas\source\repos\Cafetal1\Cafetal1\bin\Debug\Cafetal1.pdb
+C:\Users\salas\source\repos\Cafetal1\Cafetal1\obj\Debug\Cafetal1.csprojAssemblyReference.cache
+C:\Users\salas\source\repos\Cafetal1\Cafetal1\obj\Debug\Cafetal1.Form1.resources
+C:\Users\salas\source\repos\Cafetal1\Cafetal1\obj\Debug\Cafetal1.Properties.Resources.resources
+C:\Users\salas\source\repos\Cafetal1\Cafetal1\obj\Debug\Cafetal1.csproj.GenerateResource.cache
+C:\Users\salas\source\repos\Cafetal1\Cafetal1\obj\Debug\Cafetal1.csproj.CoreCompileInputs.cache
+C:\Users\salas\source\repos\Cafetal1\Cafetal1\obj\Debug\Cafetal1.exe
+C:\Users\salas\source\repos\Cafetal1\Cafetal1\obj\Debug\Cafetal1.pdb
+C:\Users\salas\source\repos\Cafetal1\Cafetal1\obj\Debug\Cafetal1.Registrar_peso_cafe.resources
