@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InterfazFincaCafetera_Borr
 {
-    public partial class FrmLoginAdmin : Form
+    public partial class FrmLoginPropietario : Form
     {
-        public FrmLoginAdmin()
+        public FrmLoginPropietario()
         {
             InitializeComponent();
         }

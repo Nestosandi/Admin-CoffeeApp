@@ -1,7 +1,7 @@
 ﻿
 namespace InterfazFincaCafetera_Borr
 {
-    partial class FrmLoginAdmin
+    partial class FrmLoginMayordomo
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,7 +29,7 @@ namespace InterfazFincaCafetera_Borr
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLoginAdmin));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLoginMayordomo));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -77,6 +77,9 @@ namespace InterfazFincaCafetera_Borr
             // 
             // textBox2
             // 
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Font = new System.Drawing.Font("Louis George Café Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(617, 381);
             this.textBox2.Name = "textBox2";
@@ -129,15 +132,15 @@ namespace InterfazFincaCafetera_Borr
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::InterfazFincaCafetera_Borr.Properties.Resources.admin;
-            this.pictureBox1.Location = new System.Drawing.Point(1029, 61);
+            this.pictureBox1.Image = global::InterfazFincaCafetera_Borr.Properties.Resources.farmer;
+            this.pictureBox1.Location = new System.Drawing.Point(320, 61);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(243, 216);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // FrmLoginAdmin
+            // FrmLoginMayordomo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -153,9 +156,9 @@ namespace InterfazFincaCafetera_Borr
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FrmLoginAdmin";
+            this.Name = "FrmLoginMayordomo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login Admin";
+            this.Text = "Login Mayordomo";
             this.Load += new System.EventHandler(this.FrmLoginAdmin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

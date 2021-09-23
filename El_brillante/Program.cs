@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace El_brillante
+namespace InterfazFincaCafetera_Borr
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace El_brillante
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Welcome());
+            Application.Run(new FrmLoginAdmin());
         }
     }
 }
