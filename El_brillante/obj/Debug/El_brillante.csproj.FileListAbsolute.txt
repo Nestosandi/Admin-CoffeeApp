@@ -1,0 +1,12 @@
+C:\Users\salas\source\repos\El_brillante\El_brillante\bin\Debug\El_brillante.exe.config
+C:\Users\salas\source\repos\El_brillante\El_brillante\bin\Debug\El_brillante.exe
+C:\Users\salas\source\repos\El_brillante\El_brillante\bin\Debug\El_brillante.pdb
+C:\Users\salas\source\repos\El_brillante\El_brillante\obj\Debug\El_brillante.csprojAssemblyReference.cache
+C:\Users\salas\source\repos\El_brillante\El_brillante\obj\Debug\El_brillante.Welcome.resources
+C:\Users\salas\source\repos\El_brillante\El_brillante\obj\Debug\El_brillante.Properties.Resources.resources
+C:\Users\salas\source\repos\El_brillante\El_brillante\obj\Debug\El_brillante.csproj.GenerateResource.cache
+C:\Users\salas\source\repos\El_brillante\El_brillante\obj\Debug\El_brillante.csproj.CoreCompileInputs.cache
+C:\Users\salas\source\repos\El_brillante\El_brillante\obj\Debug\El_brillante.exe
+C:\Users\salas\source\repos\El_brillante\El_brillante\obj\Debug\El_brillante.pdb
+C:\Users\salas\source\repos\El_brillante\El_brillante\obj\Debug\El_brillante.Login.resources
+C:\Users\salas\source\repos\El_brillante\El_brillante\obj\Debug\El_brillante.Registrar_Cafe.resources
