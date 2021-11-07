@@ -66,16 +66,19 @@ namespace InterfazFincaCafetera_Borr
             // 
             // cmbNombreRecolector
             // 
+            this.cmbNombreRecolector.Font = new System.Drawing.Font("Dolce Vita", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbNombreRecolector.FormattingEnabled = true;
             this.cmbNombreRecolector.Location = new System.Drawing.Point(47, 71);
             this.cmbNombreRecolector.Margin = new System.Windows.Forms.Padding(2);
             this.cmbNombreRecolector.Name = "cmbNombreRecolector";
-            this.cmbNombreRecolector.Size = new System.Drawing.Size(202, 21);
+            this.cmbNombreRecolector.Size = new System.Drawing.Size(202, 22);
             this.cmbNombreRecolector.TabIndex = 4;
+            this.cmbNombreRecolector.SelectedIndexChanged += new System.EventHandler(this.cmbNombreRecolector_SelectedIndexChanged);
             // 
             // txtCantidadRecogida
             // 
             this.txtCantidadRecogida.Enabled = false;
+            this.txtCantidadRecogida.Font = new System.Drawing.Font("Dolce Vita", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCantidadRecogida.Location = new System.Drawing.Point(46, 134);
             this.txtCantidadRecogida.Margin = new System.Windows.Forms.Padding(2);
             this.txtCantidadRecogida.Multiline = true;
@@ -86,6 +89,7 @@ namespace InterfazFincaCafetera_Borr
             // txtCantidadTotaldeCafeRecogido
             // 
             this.txtCantidadTotaldeCafeRecogido.Enabled = false;
+            this.txtCantidadTotaldeCafeRecogido.Font = new System.Drawing.Font("Dolce Vita", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCantidadTotaldeCafeRecogido.Location = new System.Drawing.Point(45, 206);
             this.txtCantidadTotaldeCafeRecogido.Margin = new System.Windows.Forms.Padding(2);
             this.txtCantidadTotaldeCafeRecogido.Multiline = true;
@@ -108,6 +112,7 @@ namespace InterfazFincaCafetera_Borr
             // txtTotal_A_Pagar
             // 
             this.txtTotal_A_Pagar.Enabled = false;
+            this.txtTotal_A_Pagar.Font = new System.Drawing.Font("Dolce Vita", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotal_A_Pagar.Location = new System.Drawing.Point(48, 279);
             this.txtTotal_A_Pagar.Margin = new System.Windows.Forms.Padding(2);
             this.txtTotal_A_Pagar.Multiline = true;
@@ -160,6 +165,7 @@ namespace InterfazFincaCafetera_Borr
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmInformacionEmpleado";
             this.Text = "Información Empleado";
+            this.Load += new System.EventHandler(this.FrmInformacionEmpleado_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

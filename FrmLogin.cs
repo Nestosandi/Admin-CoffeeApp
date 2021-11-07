@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace InterfazFincaCafetera_Borr
@@ -17,7 +10,7 @@ namespace InterfazFincaCafetera_Borr
             InitializeComponent();
         }
 
-        
+
 
         private void Login_Load(object sender, EventArgs e)
         {
@@ -30,7 +23,7 @@ namespace InterfazFincaCafetera_Borr
             FrmLoginAll adminitrador = new FrmLoginAll();
             adminitrador.Perfil = "Administrador";
             adminitrador.ShowDialog();
-            
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -39,7 +32,7 @@ namespace InterfazFincaCafetera_Borr
             FrmLoginAll Propietario = new FrmLoginAll();
             Propietario.Perfil = "Propietario";
             Propietario.ShowDialog();
-            
+
         }
 
         private void button3_Click(object sender, EventArgs e)

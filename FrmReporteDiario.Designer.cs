@@ -63,6 +63,7 @@ namespace InterfazFincaCafetera_Borr
             this.btnRDMostrar.TabIndex = 6;
             this.btnRDMostrar.Text = "Mostrar";
             this.btnRDMostrar.UseVisualStyleBackColor = false;
+            this.btnRDMostrar.Click += new System.EventHandler(this.btnRDMostrar_Click);
             // 
             // CalendarioReporteDiario
             // 

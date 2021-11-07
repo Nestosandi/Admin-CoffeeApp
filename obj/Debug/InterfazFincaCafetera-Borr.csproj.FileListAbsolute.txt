@@ -9,28 +9,6 @@ C:\Users\salas\source\repos\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCa
 C:\Users\salas\source\repos\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.pdb
 C:\Users\salas\source\repos\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmRegistrarProduccion.resources
 C:\Users\salas\source\repos\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmLoginAll.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\bin\Debug\InterfazFincaCafetera-Borr.exe.config
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\bin\Debug\InterfazFincaCafetera-Borr.exe
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\bin\Debug\InterfazFincaCafetera-Borr.pdb
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmLoginAll.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.Properties.Resources.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.csproj.GenerateResource.cache
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.csproj.CoreCompileInputs.cache
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.exe
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.pdb
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmLogin.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.csproj.AssemblyReference.cache
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmEstadisticas.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmInformacionEmpleado.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmRegistrarRecolector.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmReporteDiario.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmReporteMensual.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.Welcome.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmRegistrar_Cafe.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmRegistrar_peso_cafe.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmAdministrador.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmRegistrarProduccion.resources
-C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmRegistrar_Produccion.resources
 C:\Users\David\Documents\Desarrollo de Software OO\Proyectos de clase\InterfazFincaCafetera-Borr\bin\Debug\InterfazFincaCafetera-Borr.exe.config
 C:\Users\David\Documents\Desarrollo de Software OO\Proyectos de clase\InterfazFincaCafetera-Borr\bin\Debug\InterfazFincaCafetera-Borr.exe
 C:\Users\David\Documents\Desarrollo de Software OO\Proyectos de clase\InterfazFincaCafetera-Borr\bin\Debug\InterfazFincaCafetera-Borr.pdb
@@ -53,3 +31,24 @@ C:\Users\David\Documents\Desarrollo de Software OO\Proyectos de clase\InterfazFi
 C:\Users\David\Documents\Desarrollo de Software OO\Proyectos de clase\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.csproj.CoreCompileInputs.cache
 C:\Users\David\Documents\Desarrollo de Software OO\Proyectos de clase\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.exe
 C:\Users\David\Documents\Desarrollo de Software OO\Proyectos de clase\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.pdb
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\bin\Debug\InterfazFincaCafetera-Borr.exe.config
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\bin\Debug\InterfazFincaCafetera-Borr.exe
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\bin\Debug\InterfazFincaCafetera-Borr.pdb
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmAdministrador.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmEstadisticas.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmInformacionEmpleado.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmLogin.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmLoginAll.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmRegistrarProduccion.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmRegistrarRecolector.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmRegistrar_Cafe.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmRegistrar_peso_cafe.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmRegistrar_Produccion.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmReporteDiario.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.FrmReporteMensual.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.Welcome.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera_Borr.Properties.Resources.resources
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.csproj.GenerateResource.cache
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.csproj.CoreCompileInputs.cache
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.exe
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.pdb

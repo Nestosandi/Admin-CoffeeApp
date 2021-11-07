@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Windows.Forms;
 using System.Configuration;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 
 namespace InterfazFincaCafetera_Borr
@@ -13,14 +13,15 @@ namespace InterfazFincaCafetera_Borr
             InitializeComponent();
         }
         public String Perfil { get; set; }
-     
+
 
         private void FrmLoginAll_Load(object sender, EventArgs e)
         {
             if (this.Perfil == "Administrador")
             {
                 PicPerfil.Image = imageList1.Images[2];
-            }else
+            }
+            else
             {
                 if (this.Perfil == "Mayordomo")
                 {
@@ -48,11 +49,11 @@ namespace InterfazFincaCafetera_Borr
 
         private void label1_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void BtnEnterLoginAll_Click(object sender, EventArgs e)
-        {   
+        {
             if (this.Perfil == "Administrador")
             {
                 try
@@ -69,19 +70,19 @@ namespace InterfazFincaCafetera_Borr
                             {
                                 MessageBox.Show("Login exitoso.");
                                 FrmAdministrador admin = new FrmAdministrador();
-                admin.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Datos incorrectos.");
-            }
-        }
-    }
-}
+                                admin.ShowDialog();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Datos incorrectos.");
+                            }
+                        }
+                    }
+                }
                 catch (Exception ex)
-{
-    MessageBox.Show(ex.ToString());
-}
+                {
+                    MessageBox.Show(ex.ToString());
+                }
             }
             else
             {
@@ -150,7 +151,7 @@ namespace InterfazFincaCafetera_Borr
                     }
                 }
             }
-            
+
         }
 
         private void BtnCancelLoginAll_Click(object sender, EventArgs e)

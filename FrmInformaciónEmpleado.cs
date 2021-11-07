@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Configuration;
+using System.Data.SqlClient;
 using System.Windows.Forms;
+
 
 namespace InterfazFincaCafetera_Borr
 {
@@ -20,6 +16,35 @@ namespace InterfazFincaCafetera_Borr
         private void btnRegresar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void cmbNombreRecolector_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string cnn = ConfigurationManager.ConnectionStrings["cnn"].ConnectionString;
+            using (SqlConnection conexion = new SqlConnection(cnn))
+            {
+                string query = "SELECT Nombre FROM Recolectores";
+                conexion.Open();
+                SqlCommand comando = new SqlCommand(query, conexion);
+                SqlDataReader registro = comando.ExecuteReader();
+            }
+        }
+
+        private void FrmInformacionEmpleado_Load(object sender, EventArgs e)
+        {
+            string cnn = ConfigurationManager.ConnectionStrings["cnn"].ConnectionString;
+            using (SqlConnection conexion = new SqlConnection(cnn))
+            {
+                string query = "SELECT Nombre FROM Recolectores";
+                conexion.Open();
+                SqlCommand comando = new SqlCommand(query, conexion);
+                SqlDataReader registro = comando.ExecuteReader();
+                while (registro.Read())
+                {
+                    cmbNombreRecolector.Items.Add(registro["Nombre"]);
+                }
+                conexion.Close();
+            }
         }
     }
 }

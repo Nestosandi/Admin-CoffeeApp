@@ -38,6 +38,7 @@ namespace InterfazFincaCafetera_Borr
             this.btn_registrar = new System.Windows.Forms.Button();
             this.btn_cancelar_peso = new System.Windows.Forms.Button();
             this.txtBx_pago_recolector = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
@@ -45,7 +46,7 @@ namespace InterfazFincaCafetera_Borr
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Louis George Café", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(52)))), ((int)(((byte)(34)))));
-            this.label1.Location = new System.Drawing.Point(202, 104);
+            this.label1.Location = new System.Drawing.Point(213, 65);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(241, 29);
             this.label1.TabIndex = 0;
@@ -56,7 +57,7 @@ namespace InterfazFincaCafetera_Borr
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Louis George Café", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(52)))), ((int)(((byte)(34)))));
-            this.label2.Location = new System.Drawing.Point(406, 245);
+            this.label2.Location = new System.Drawing.Point(449, 202);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 29);
             this.label2.TabIndex = 1;
@@ -67,7 +68,7 @@ namespace InterfazFincaCafetera_Borr
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Louis George Café", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(52)))), ((int)(((byte)(34)))));
-            this.label3.Location = new System.Drawing.Point(202, 199);
+            this.label3.Location = new System.Drawing.Point(213, 160);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(240, 29);
             this.label3.TabIndex = 2;
@@ -78,18 +79,19 @@ namespace InterfazFincaCafetera_Borr
             this.cmbBx_recolector.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(246)))), ((int)(((byte)(242)))));
             this.cmbBx_recolector.Font = new System.Drawing.Font("Louis George Café", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbBx_recolector.FormattingEnabled = true;
-            this.cmbBx_recolector.Location = new System.Drawing.Point(207, 148);
+            this.cmbBx_recolector.Location = new System.Drawing.Point(218, 109);
             this.cmbBx_recolector.Name = "cmbBx_recolector";
             this.cmbBx_recolector.Size = new System.Drawing.Size(228, 33);
             this.cmbBx_recolector.TabIndex = 3;
+            this.cmbBx_recolector.SelectedIndexChanged += new System.EventHandler(this.cmbBx_recolector_SelectedIndexChanged);
             // 
             // txtbx_peso_cafe
             // 
             this.txtbx_peso_cafe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(246)))), ((int)(((byte)(242)))));
             this.txtbx_peso_cafe.Font = new System.Drawing.Font("Louis George Café", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbx_peso_cafe.Location = new System.Drawing.Point(207, 241);
+            this.txtbx_peso_cafe.Location = new System.Drawing.Point(218, 202);
             this.txtbx_peso_cafe.Name = "txtbx_peso_cafe";
-            this.txtbx_peso_cafe.Size = new System.Drawing.Size(193, 33);
+            this.txtbx_peso_cafe.Size = new System.Drawing.Size(228, 33);
             this.txtbx_peso_cafe.TabIndex = 4;
             // 
             // btn_ingresar
@@ -98,9 +100,9 @@ namespace InterfazFincaCafetera_Borr
             this.btn_ingresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ingresar.Font = new System.Drawing.Font("Louis George Café", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ingresar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(52)))), ((int)(((byte)(34)))));
-            this.btn_ingresar.Location = new System.Drawing.Point(475, 240);
+            this.btn_ingresar.Location = new System.Drawing.Point(454, 261);
             this.btn_ingresar.Name = "btn_ingresar";
-            this.btn_ingresar.Size = new System.Drawing.Size(118, 40);
+            this.btn_ingresar.Size = new System.Drawing.Size(150, 44);
             this.btn_ingresar.TabIndex = 5;
             this.btn_ingresar.Text = "Ingresar";
             this.btn_ingresar.UseVisualStyleBackColor = false;
@@ -111,7 +113,7 @@ namespace InterfazFincaCafetera_Borr
             this.btn_registrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_registrar.Font = new System.Drawing.Font("Louis George Café", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_registrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(52)))), ((int)(((byte)(34)))));
-            this.btn_registrar.Location = new System.Drawing.Point(207, 377);
+            this.btn_registrar.Location = new System.Drawing.Point(218, 394);
             this.btn_registrar.Name = "btn_registrar";
             this.btn_registrar.Size = new System.Drawing.Size(193, 40);
             this.btn_registrar.TabIndex = 6;
@@ -124,7 +126,7 @@ namespace InterfazFincaCafetera_Borr
             this.btn_cancelar_peso.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cancelar_peso.Font = new System.Drawing.Font("Louis George Café", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cancelar_peso.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(52)))), ((int)(((byte)(34)))));
-            this.btn_cancelar_peso.Location = new System.Drawing.Point(425, 377);
+            this.btn_cancelar_peso.Location = new System.Drawing.Point(436, 394);
             this.btn_cancelar_peso.Name = "btn_cancelar_peso";
             this.btn_cancelar_peso.Size = new System.Drawing.Size(168, 40);
             this.btn_cancelar_peso.TabIndex = 7;
@@ -137,10 +139,22 @@ namespace InterfazFincaCafetera_Borr
             this.txtBx_pago_recolector.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(246)))), ((int)(((byte)(242)))));
             this.txtBx_pago_recolector.Enabled = false;
             this.txtBx_pago_recolector.Font = new System.Drawing.Font("Louis George Café", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBx_pago_recolector.Location = new System.Drawing.Point(207, 311);
+            this.txtBx_pago_recolector.Location = new System.Drawing.Point(218, 328);
             this.txtBx_pago_recolector.Name = "txtBx_pago_recolector";
             this.txtBx_pago_recolector.Size = new System.Drawing.Size(386, 33);
             this.txtBx_pago_recolector.TabIndex = 8;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Louis George Café", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(52)))), ((int)(((byte)(34)))));
+            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(214)))), ((int)(((byte)(171)))));
+            this.dateTimePicker1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dateTimePicker1.Font = new System.Drawing.Font("Louis George Café", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(218, 266);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(228, 33);
+            this.dateTimePicker1.TabIndex = 9;
             // 
             // FrmRegistrar_peso_cafe
             // 
@@ -148,6 +162,7 @@ namespace InterfazFincaCafetera_Borr
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(214)))), ((int)(((byte)(171)))));
             this.ClientSize = new System.Drawing.Size(784, 511);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.txtBx_pago_recolector);
             this.Controls.Add(this.btn_cancelar_peso);
             this.Controls.Add(this.btn_registrar);
@@ -160,6 +175,7 @@ namespace InterfazFincaCafetera_Borr
             this.Name = "FrmRegistrar_peso_cafe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar_peso_cafe";
+            this.Load += new System.EventHandler(this.FrmRegistrar_peso_cafe_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,5 +192,6 @@ namespace InterfazFincaCafetera_Borr
         private System.Windows.Forms.Button btn_registrar;
         private System.Windows.Forms.Button btn_cancelar_peso;
         private System.Windows.Forms.TextBox txtBx_pago_recolector;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
