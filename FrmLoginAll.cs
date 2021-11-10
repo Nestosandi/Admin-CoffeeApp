@@ -54,100 +54,24 @@ namespace InterfazFincaCafetera_Borr
 
         private void BtnEnterLoginAll_Click(object sender, EventArgs e)
         {
+            Login log = new Login();
             if (this.Perfil == "Administrador")
             {
-                try
-                {
-                    string cnn = ConfigurationManager.ConnectionStrings["cnn"].ConnectionString;
-                    using (SqlConnection conexion = new SqlConnection(cnn))
-                    {
-                        conexion.Open();
-                        using (SqlCommand cmd = new SqlCommand("SELECT Username, Contraseña FROM Usuarios WHERE Username='"
-                            + txtUser.Text + "' AND Contraseña='" + txtPass.Text + "'" + " AND Rol='Administrador'", conexion))
-                        {
-                            SqlDataReader dr = cmd.ExecuteReader();
-                            if (dr.Read())
-                            {
-                                MessageBox.Show("Login exitoso.");
-                                FrmAdministrador admin = new FrmAdministrador();
-                                admin.ShowDialog();
-                            }
-                            else
-                            {
-                                MessageBox.Show("Datos incorrectos.");
-                            }
-                        }
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString());
-                }
+                log.Autenticar(txtUser.Text, txtPass.Text, "Administrador");
             }
             else
             {
                 if (this.Perfil == "Mayordomo")
                 {
-                    try
-                    {
-                        string cnn = ConfigurationManager.ConnectionStrings["cnn"].ConnectionString;
-                        using (SqlConnection conexion = new SqlConnection(cnn))
-                        {
-                            conexion.Open();
-                            using (SqlCommand cmd = new SqlCommand("SELECT Username, Contraseña FROM Usuarios WHERE Username='"
-                                + txtUser.Text + "' AND Contraseña='" + txtPass.Text + "'" + " AND Rol='Mayordomo'", conexion))
-                            {
-                                SqlDataReader dr = cmd.ExecuteReader();
-                                if (dr.Read())
-                                {
-                                    MessageBox.Show("Login exitoso.");
-                                    FrmRegistrar_Cafe mayor = new FrmRegistrar_Cafe();
-                                    mayor.ShowDialog();
-                                    conexion.Close();
-                                }
-                                else
-                                {
-                                    MessageBox.Show("Datos incorrectos.");
-                                }
-                            }
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show(ex.ToString());
-                    }
+                    
+                    log.Autenticar(txtUser.Text,txtPass.Text,"Mayordomo");
+                
                 }
-                else
+                    else
                 {
                     if (this.Perfil == "Propietario")
                     {
-                        try
-                        {
-                            string cnn = ConfigurationManager.ConnectionStrings["cnn"].ConnectionString;
-                            using (SqlConnection conexion = new SqlConnection(cnn))
-                            {
-                                conexion.Open();
-                                using (SqlCommand cmd = new SqlCommand("SELECT Username, Contraseña FROM Usuarios WHERE Username='"
-                                    + txtUser.Text + "' AND Contraseña='" + txtPass.Text + "'" + " AND Rol='Propietario'", conexion))
-                                {
-                                    SqlDataReader dr = cmd.ExecuteReader();
-                                    if (dr.Read())
-                                    {
-                                        MessageBox.Show("Login exitoso.");
-                                        FrmRegistrarProduccion prop = new FrmRegistrarProduccion();
-                                        prop.ShowDialog();
-                                    }
-                                    else
-                                    {
-                                        MessageBox.Show("Datos incorrectos.");
-                                    }
-                                }
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            MessageBox.Show(ex.ToString());
-                        }
+                        log.Autenticar(txtUser.Text, txtPass.Text, "Propietario");
                     }
                 }
             }

@@ -52,3 +52,4 @@ C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafet
 C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.csproj.CoreCompileInputs.cache
 C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.exe
 C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.pdb
+C:\Users\RErn_\Downloads\InterfazFincaCafetera-Borr\obj\Debug\InterfazFincaCafetera-Borr.csproj.AssemblyReference.cache

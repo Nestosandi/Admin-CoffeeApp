@@ -25,27 +25,27 @@ namespace InterfazFincaCafetera_Borr
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            string cnn = ConfigurationManager.ConnectionStrings["cnn"].ConnectionString;
-            using (SqlConnection conexion = new SqlConnection(cnn))
-            {
-                string query = "INSERT INTO Recolectores VALUES (@cedula,@nombre,@celular,@fecha)";
-                conexion.Open();
+            //string cnn = ConfigurationManager.ConnectionStrings["cnn"].ConnectionString;
+            //using (SqlConnection conexion = new SqlConnection(cnn))
+            //{
 
-                SqlCommand comando = new SqlCommand(query, conexion);
-                comando.Parameters.AddWithValue("@cedula", txtCedula.Text);
-                comando.Parameters.AddWithValue("@nombre", txtNombre.Text);
-                comando.Parameters.AddWithValue("@celular", txtCelular.Text);
-                comando.Parameters.AddWithValue("@fecha", DtFecha.Text);
-                comando.ExecuteNonQuery();
+            //string query = "INSERT INTO Recolectores VALUES (@cedula,@nombre,@celular,@fecha)";
+            //conexion.Open();
 
-                MessageBox.Show("¡Recolector ingresado correctamente!");
+            //SqlCommand comando = new SqlCommand(query, conexion);
+            //comando.Parameters.AddWithValue("@cedula", txtCedula.Text);
+            //comando.Parameters.AddWithValue("@nombre", txtNombre.Text);
+            //comando.Parameters.AddWithValue("@celular", txtCelular.Text);
+            //comando.Parameters.AddWithValue("@fecha", DtFecha.Text.ToString());
+            //comando.ExecuteNonQuery();
 
-                SqlCommand comando2 = new SqlCommand("SELECT * FROM Recolectores", conexion);
-                SqlDataAdapter adaptador = new SqlDataAdapter();
-                adaptador.SelectCommand = comando2;
-                DataTable tabla = new DataTable();
-                adaptador.Fill(tabla);
-                DgvRecolectores.DataSource = tabla;
+            //MessageBox.Show("¡Recolector ingresado correctamente!");
+
+            Recolector Rec = new Recolector();
+            Rec.RegistrarRecolector(Convert.ToInt32(txtCedula.Text), txtNombre.Text,
+                Convert.ToInt32(txtCelular.Text), DtFecha.Text);
+
+            Rec.MostrarRecolector(DgvRecolectores);
 
                 txtCedula.Clear();
                 txtNombre.Clear();
@@ -55,4 +55,4 @@ namespace InterfazFincaCafetera_Borr
 
         }
     }
-}
+

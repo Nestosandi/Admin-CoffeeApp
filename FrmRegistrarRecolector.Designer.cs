@@ -149,11 +149,13 @@ namespace InterfazFincaCafetera_Borr
             // 
             // DtFecha
             // 
-            this.DtFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DtFecha.CalendarFont = new System.Drawing.Font("Louis George Café", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DtFecha.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DtFecha.Location = new System.Drawing.Point(21, 270);
             this.DtFecha.Name = "DtFecha";
             this.DtFecha.Size = new System.Drawing.Size(169, 20);
             this.DtFecha.TabIndex = 11;
+            this.DtFecha.Value = new System.DateTime(2021, 11, 10, 0, 0, 0, 0);
             // 
             // DgvRecolectores
             // 
